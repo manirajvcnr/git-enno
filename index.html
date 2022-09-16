@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,105 +11,239 @@
     <link rel="stylesheet" href="icofont/icofont.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
-        </style>
+    </style>
 </head>
+
 <body>
     <section class="container">
-    <!--enno navigation-->
-    <section class="nav-bar">
-        <div class="logo">
-            <h1>eNno</h1>
-        </div>
+        <!--enno navigation-->
+        <section class="nav-bar">
+            <div class="logo">
+                <h1>eNno</h1>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="#home" class="home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="">Drop Down</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="btn">Get Started</button></li>
+                </ul>
+            </div>
+            <!-- navigation icon -->
+            <div class="bar">
+                <i class="icofont-navigation-menu"></i>
+            </div>
+        </section>
+
+        <!--header-->
+        <section class="header-container" id="home">
+            <div class="header-left">
+                <h1>Elegant and creative solutions</h1>
+                <p>We are team of talented designers making websites with Bootstrap</p>
+                <div class="play-btn">
+                    <button>Get Started</button>
+                    <span><i class="icofont-play-alt-2"></i> Watch Video</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="./images/hero-img.png" alt="eNno">
+            </div>
+        </section>
+
+        <!-- header-flex box -->
+        <section class="header-flex">
+            <div class="header-box">
+                <i class="icofont-laptop"></i>
+                <h3>Lorem Ipsum</h3>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident</p>
+            </div>
+            <div class="header-box">
+                <i class="icofont-list"></i>
+                <h3>Dolor Sitema</h3>
+                <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad
+                    limino ata</p>
+            </div>
+            <div class="header-box">
+                <i class="icofont-ui-clip-board"></i>
+                <h3>Sed ut perspiciatis</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                </p>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <div class="about-flex">
+                <div class="about-left">
+                    <img src="./images/about.png" alt="about">
+                </div>
+                <div class="about-right">
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+                    <p class="text-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul>
+                        <li><i class="icofont-check-circled"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                        </li>
+                        <li><i class="icofont-check-circled"></i>Duis aute irure dolor in reprehenderit in voluptate
+                            velit</li>
+                        <li><i class="icofont-check-circled"></i>Ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</li>
+                    </ul>
+                    <p class="text-bottom">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+
+            <div class="about-number-flex">
+                <div class="count">
+                    <span>51</span>
+                    <p>Clients</p>
+                </div>
+                <div class="count">
+                    <span>109</span>
+                    <p>Projects</p>
+                </div>
+                <div class="count">
+                    <span>307</span>
+                    <p>Hours Of Support</p>
+                </div>
+                <div class="count">
+                    <span>3</span>
+                    <p>Hard Workers</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="service" id="services">
+            <div class="service-header">
+                <span>SERVICES</span>
+                <h1>SERVICES</h1>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+
+            <div class="service-flex">
+                <div class="service-box">
+                    <i class="icofont-dribbble"></i>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                </div>
+                <div class="service-box">
+                    <i class="icofont-ui-file"></i>
+                    <h3>Sed ut perspiciatis</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
+                <div class="service-box">
+                    <i class="icofont-speed-meter"></i>
+                    <h3>Magni Dolores</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                </div>
+                <div class="service-box">
+                    <i class="icofont-world"></i>
+                    <h3>Nemo Enim</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                </div>
+                <div class="service-box">
+                    <i class="icofont-computer"></i>
+                    <h3>Dele cardo</h3>
+                    <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                </div>
+                <div class="service-box">
+                    <i class="icofont-building"></i>
+                    <h3>Divera don</h3>
+                    <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="portfolio" id="portfolio">
+            <!--Portfolio-header-->
+            <div class="port-header">
+                <span>Portfolio</span>
+                <h1>Portfolio</h1>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+
+            <!--App flex-->
+            <div class="app-flex">
+                <p class="all">All</p>
+                <p>App</p>
+                <p>Card</p>
+                <p>Web</p>
+            </div>
+
+            <!--Body images-->
+            <div class="image-flex">
+                <div class="body-img">
+                    <img src="./images/portfolio-1.jpg">
+                    <img src="./images/portfolio-6.jpg">
+                </div>
+                <div class="body-img">
+                    <img src="./images/portfolio-2.jpg">
+                    <img src="./images/portfolio-5.jpg">
+                    <img src="./images/portfolio-9.jpg">
+                </div>
+                <div class="body-img">
+                    <img src="./images/portfolio-3.jpg">
+                    <img src="./images/portfolio-4.jpg">
+                    <img src="./images/portfolio-7.jpg">
+                    <img src="./images/portfolio-8.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!--Testimonials -->
+        <section class="testimonials">
+            <div class="port-header">
+                <span>TESTIMONIALS</span>
+                <h1>TESTIMONIALS</h1>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <div class="test-flex">
+                <div class="testimonials-info">
+                    <p><i class="icofont-quote-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <i class="icofont-quote-right"></i></p>
+                    <div class="profile">
+                    <img src="./images/testimonials-1.jpg" alt="">
+                    <h3>Saul Goodman</h3>
+                    <span>Ceo & Founder</span>
+                </div>
+                </div>
+                <div class="testimonials-info">
+                    <p><i class="icofont-quote-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa. <i class="icofont-quote-right"></i></p>
+                
+                    <div class="profile">
+                    <img src="./images/testimonials-2.jpg" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <span>Designer</span>
+                </div>
+                </div>
+                <div class="testimonials-info">
+                    <p><i class="icofont-quote-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.<i class="icofont-quote-right"></i> </p>
+                
+                    <div class="profile">
+                    <img src="./images/testimonials-3.jpg" alt="">
+                    <h3>Jena Karlis</h3>
+                    <span>Store Owner</span>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- call to action -->
+        <section class="call">
+            <h1>Call To Action</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button>CALL TO ACTION</button>
+        </section>
         
-        <div class="navigation">
-            <ul>
-                <li><a href="" class="home">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Team</a></li>
-                <li><a href="">Drop Down</a></li>
-                <li><a href="">Contact</a></li>
-                <li><button class="btn">Get Started</button></li>
-            </ul>
-        </div>
-        <!-- navigation icon -->
-        <div class="bar">
-            <i class="icofont-navigation-menu"></i>
-        </div>
     </section>
-
-    <!--header-->
-    <section class="header-container">
-        <div class="header-left">
-            <h1>Elegant and creative solutions</h1>
-            <p>We are team of talented designers making websites with Bootstrap</p>
-            <div class="play-btn">
-            <button>Get Started</button>
-            <span><i class="icofont-play-alt-2"></i> Watch Video</span>
-        </div>
-        </div>
-        <div class="header-right">
-            <img src="./images/hero-img.png" alt="eNno">
-        </div>
-    </section>
-
-    <!-- header-flex box -->
-    <section class="header-flex">
-        <div class="header-box">
-            <i class="icofont-laptop"></i>
-            <h3>Lorem Ipsum</h3>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-    </div>
-        <div class="header-box">
-            <i class="icofont-list"></i>
-            <h3>Dolor Sitema</h3>
-            <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-    </div>
-        <div class="header-box">
-            <i class="icofont-ui-clip-board"></i>
-            <h3>Sed ut perspiciatis</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-    </div>
-    </section>
-
-    <!-- about -->
-    <section class="about">
-        <div class="about-flex">
-        <div class="about-left">
-            <img src="./images/about.png" alt="about">
-        </div>
-        <div class="about-right">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
-            <p class="text-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul>
-                <li><i class="icofont-check-circled"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                <li><i class="icofont-check-circled"></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                <li><i class="icofont-check-circled"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</li>
-            </ul>
-            <p class="text-bottom">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </div>
-    </div>
-
-    <div class="about-number-flex">
-        <div class="count">
-            <span>232</span>
-            <p>Clients</p>
-        </div>
-        <div class="count">
-            <span>521</span>
-            <p>Projects</p>
-        </div>
-        <div class="count">
-            <span>1463</span>
-            <p>Hours Of Support</p>
-        </div>
-        <div class="count">
-            <span>15</span>
-            <p>Hard Workers</p>
-        </div>
-    </div>
-    </section>
-</section>
 </body>
+
 </html>
