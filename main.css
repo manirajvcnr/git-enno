@@ -365,6 +365,10 @@ body {
     .app-flex p{
         margin:0 10px 0 10px;
     }
+    .app-flex p:hover{
+        color: #16df7e;
+        cursor: pointer;
+    }
     /*body images*/
     .body-img{
         width: 100%;
@@ -374,7 +378,38 @@ body {
         width:100%;
         padding-top: 10px;
     }
-
+    .img-hover {
+        position: relative;
+    }
+    .img-down{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 20px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+    }
+    .flex-link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .app-link p{
+        padding: 10px 0;
+    }
+    .app-link span{
+        font-size: 14px;
+    }
+    .icon-link i{
+        color: blue;
+        padding: 0 5px;
+    }
+    .img-hover:hover .img-down{
+        opacity: 1;
+    }
     /* Testimonials */
     .testimonials{
         height: auto;
@@ -1494,7 +1529,7 @@ body {
         letter-spacing: 0.5px;
     }
     .navigation{
-        width: 75%;
+        width: 65%;
         font-size: 18px;
     }
     .navigation ul{
@@ -1505,6 +1540,10 @@ body {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 16px;
+    }
+    .navigation ul li a{
+        font-size: 13px;
+        font-weight: 600;
     }
     .home {
         color: #16df7e;
